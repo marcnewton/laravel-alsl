@@ -1,0 +1,46 @@
+{
+    "name": "marcnewton/laravel-alsl",
+    "description": "This middleware class will iterate through a users language preferences fetched from the Accept-Language request header in the order of their language preference and attempt to find a matching locale available in Laravel's resources/lang directory.",
+    "keywords": [
+        "laravel",
+        "language"
+    ],
+    "homepage": "https://https://github.com/marcnewton/laravel-alsl",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/marcnewton/larvel-slal/issues",
+        "source": "https://github.com/marcnewton/larvel-slal"
+    },
+    "authors": [
+        {
+            "name": "Marc Newton",
+            "email": "git@marcnewton.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarcNewton\\LaravelASAL\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MarcNewton\\LaravelASAL\\AcceptLanguageServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "funding": [
+        {
+            "type": "github",
+            "url": "https://github.com/sponsors/marcnewton"
+        }
+    ]
+}
