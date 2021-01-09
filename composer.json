@@ -1,6 +1,6 @@
 {
     "name": "marcnewton/laravel-alsl",
-    "description": "This middleware class will iterate through a users language preferences fetched from the Accept-Language request header in the order of their language preference and attempt to find a matching locale available in Laravel's resources/lang directory.",
+    "description": "Detects a users language preferences in the Accept-Language request header, from the order of their language preference; an attempt to find and set a matching locale available in Laravel's resources/lang directory.",
     "keywords": [
         "laravel",
         "language"
