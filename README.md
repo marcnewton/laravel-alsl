@@ -8,6 +8,8 @@ Iteration of a user's language preferences set in the `Accept-Language` request 
 - Restores saved user preference from an authenticated user  `User::locale` if set.
 - Fallback to Laravel configuration `app.locale` else `en` (English).
 
+[![Laravel ALSL](https://img.youtube.com/vi/VrvBUeSVDNE/0.jpg)](https://youtu.be/VrvBUeSVDNE)
+
 ## Installation
 
 `composer require marcnewton/laravel-alsl`
