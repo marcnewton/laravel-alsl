@@ -20,15 +20,17 @@ Iteration of a user's language preferences set in the `Accept-Language` request 
 
 ## Language Variants
 
-To support variants, simple create language translation folders in `resources/lang`.
+To support variants, create language translation folders in `resources/lang`.
 
-For example, supporting **English (United States)** and **English (United Kingdom)**, create folders `en-US` and `en-GB` in addition to `en` (English).
+For example, to support **English (United States)** and **English (United Kingdom)**; create the following directories: `en-US` and `en-GB` in addition to `en` (English).
 
 ## How detection works.
 
 Web browsers are natively set to their systems user preferences for languages on installation and then further fallback preferences can be configured in the browser by the user, this information is sent with requests via a header called [Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language), it is a widely supported standard often overlooked.
 
-The header is processed and a best match for laravels language directories is detected and set using Laravels built in locale functionality, here is an example of some different senarios:
+The header is processed and a best match for laravels language directories is detected and set using Laravels built in locale functionality.
+
+Here is an example of some different senarios for an individual whos preference is Mexican Spanish (español mexicano es-MX) and their secondary fallback is United States Spanish (Estados Unidos es-US):
 
 | Available Server Languages | Matches |
 | - |- |
