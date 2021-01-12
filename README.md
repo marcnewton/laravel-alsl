@@ -26,7 +26,9 @@ For example, supporting **English (United States)** and **English (United Kingdo
 
 ## How detection works.
 
-A Spanish-speaking user has preferences list only for **Spanish (Mexico)** then **Spanish (United States)**;
+Web browsers are natively set to their systems user preferences for languages on installation and then further fallback preferences can be configured in the browser by the user, this information is sent with requests via a header called [Accept-Language](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Language), it is a widely supported standard often overlooked.
+
+The header is processed and a best match for laravels language directories is detected and set using Laravels built in locale functionality, here is an example of some different senarios:
 
 | Available Server Languages | Matches |
 | - |- |
