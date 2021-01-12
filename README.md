@@ -44,5 +44,3 @@ However, if the user specified a preference for **Spanish** first then a Spanish
 
 ## Deployments
 When adding or removing language support in `resources/lang`, you should ensure you run `php artisan cache:forget resources.languages` to clear the cache.
-
-Alternatively swap `rememberForever` with a softer cache mechanism.
