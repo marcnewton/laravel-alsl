@@ -1,6 +1,6 @@
 # Laravel Accept-Language to SetLocale (ALSL)
 
-Adds support for iln8 Detection.
+Adds support for il8n Detection.
 
 Iteration of a user's language preferences set in the `Accept-Language` request header, using order of language preference from users web browser; attempts to find a matching locale available in Laravel `resources/lang` directory.
 
